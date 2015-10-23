@@ -1,3 +1,10 @@
+1.1
+---
+
+- Minimum pyramid version required is > 1.6a2
+- ``pyramid.pshell`` is now ``pyramid.pshell_runner`` see: https://github.com/Pylons/pyramid/pull/2012
+
+
 1.0
 ---
 

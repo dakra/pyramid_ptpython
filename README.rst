@@ -25,8 +25,24 @@ You can also add the ``ipython`` dependency for ``ptipython``:
 Usage
 -----
 
-Simply pass ``ptpython`` or ``ptipython`` as shell argument to pyramids ``pshell``.
+``ptipython`` gets auto-selected if it is the only shell installed for pyramid.
+
+.. code-block::
+
+    $ pshell development.ini
+
+
+To select a specific shell you can simply pass ``ptpython`` or ``ptipython`` as
+shell argument to pyramids ``pshell``.
 
 .. code-block::
 
     $ pshell -p ptpython development.ini
+
+
+Or define ``default_shell`` in the ``pshell`` section of your ini-file like:
+
+.. code-block::
+
+    [pshell]
+    default_shell = ptpython
