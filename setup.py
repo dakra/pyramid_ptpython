@@ -11,7 +11,7 @@ with open(path.join(here, 'CHANGES.txt'), encoding='utf-8') as f:
 
 setup(
     name='pyramid_ptpython',
-    version=1.1,
+    version="1.1.1",
 
     description='A ptpython and ptipython plugin for pyramid pshell',
     long_description=README + '\n\n' + CHANGES,
@@ -40,6 +40,7 @@ setup(
         'pyramid > 1.6a2',
         'ptpython',
     ],
+    py_modules=['pyramid_ptpython'],
     extras_require={'ipython': ['ipython']},
     entry_points={
         'pyramid.pshell_runner': [
