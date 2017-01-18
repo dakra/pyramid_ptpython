@@ -1,3 +1,10 @@
+1.2
+---
+
+- Support custom ptpython config
+- Use global ptpython history
+- Fix autocomplete
+
 1.1
 ---
 
